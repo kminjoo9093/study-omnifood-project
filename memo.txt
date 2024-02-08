@@ -1,0 +1,4 @@
+a에 inline block!!! 이거 해야 패딩값 제대로 적용
+
+header에서 padding에 높이 값 주지 않고, header 자체에 높이 값 부여
+-> 스크롤했을 때 header 위치 고정 위해
