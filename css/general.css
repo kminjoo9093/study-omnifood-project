@@ -91,19 +91,56 @@ a:visited {
 /* GRID */
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-center--v {
+  align-items: center;
+}
 /* HEADING */
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+}
+
 .heading-primary {
   font-size: 5rem;
-  line-height: 1.1;
-  color: #333;
   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #cf711f;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.6rem;
 }
 
 /* BTN */
