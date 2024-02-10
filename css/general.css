@@ -203,3 +203,7 @@ a:visited {
 .text-center {
   text-align: center;
 }
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
