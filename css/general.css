@@ -200,10 +200,15 @@ a:visited {
   color: #e67e22;
 }
 
+/* helper */
 .text-center {
   text-align: center;
 }
 
 .margin-bottom-md {
   margin-bottom: 4.8rem;
+}
+
+strong {
+  font-weight: 500;
 }
