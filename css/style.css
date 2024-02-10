@@ -253,6 +253,11 @@ header {
   height: 2.4rem;
   color: #e67e22;
 }
+
+.see-all:link,
+.see-all:visited {
+  font-size: 1.6rem;
+}
 /****************************/
 /* TESTIMONIALS */
 /****************************/
