@@ -1,7 +1,7 @@
 /****************************/
 /* HEADER */
 /****************************/
-header {
+.header {
   padding: 0 4.8rem;
   height: 9.6rem;
   background-color: #fdf2e9;
@@ -326,7 +326,50 @@ header {
 /****************************/
 /* PRICING */
 /****************************/
+.section-pricing {
+  padding: 9.6rem 0;
+}
 
+.pricing-plan {
+  border-radius: 12px;
+  padding: 4.8rem;
+  text-align: center;
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  border: 3px solid #fdf2e9;
+}
+
+.pricing-plan--complete {
+  background-color: #fdf2e9;
+}
+
+.pricing-plan-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #cf711f;
+  margin-bottom: 3.2rem;
+}
+
+.pricing-plan-price {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+.pricing-plan-price span {
+  font-size: 6.4rem;
+  font-weight: 600;
+}
+.pricing-plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-bottom: 4.8rem;
+}
 /****************************/
 /* CTA */
 /****************************/
