@@ -110,7 +110,8 @@ a:visited {
 .grid-center--v {
   align-items: center;
 }
-/* HEADING */
+
+/************ HEADING ************/
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -143,7 +144,7 @@ a:visited {
   margin-bottom: 1.6rem;
 }
 
-/* BTN */
+/********* BTN *********/
 .btn {
   transition: all 0.3s;
 }
@@ -152,7 +153,6 @@ a:visited {
 .btn:visited {
   font-size: 2rem;
   font-weight: 600;
-  background-color: #e67e22;
   color: #fff;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
