@@ -419,7 +419,7 @@
 /* CTA */
 /****************************/
 .section-cta {
-  padding: 4.8rem 0 9.6rem;
+  padding: 4.8rem 0 12.8rem;
 }
 
 .cta {
@@ -507,3 +507,71 @@
 /****************************/
 /* FOOTER */
 /****************************/
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eaeaea;
+}
+
+.grid-footer {
+  display: grid;
+  gap: 6.4rem;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer .logo-img {
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 6.4rem;
+}
+
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #767676;
+}
+
+.heading-footer {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.6rem;
+}
+
+.address {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 2.6rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #767676;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.nav-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
