@@ -136,7 +136,7 @@
 }
 .featured {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .featured img {
@@ -357,7 +357,6 @@
 .pricing-plan {
   border-radius: 12px;
   padding: 4.8rem;
-  text-align: center;
   width: 75%;
   margin-bottom: 4.8rem;
 }

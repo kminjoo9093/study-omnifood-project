@@ -63,7 +63,6 @@
   }
   .container {
     max-width: 120rem;
-    padding: 0 4.8rem;
   }
   .hero-customers {
     display: flex;
@@ -101,6 +100,10 @@
 
   .pricing-plan {
     width: 90%;
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
   }
 
   .cta-form {
@@ -168,5 +171,60 @@
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 3rem;
+  }
+}
+
+/***********************/
+/*BELOW 704px : smaller tablets*/
+/***********************/
+@media (max-width: 44em) {
+  .hero-img {
+    width: 60%;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .grid {
+    row-gap: 4.8rem;
+    column-gap: 3.2rem;
+  }
+
+  .section-meals .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .diet {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .container-testimonials {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .pricing-plan {
+    width: 100%;
+  }
+
+  .feature-box {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6.4rem;
+  }
+
+  .grid-footer {
+    gap: 6.4rem;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+
+  .logo-col,
+  .contact-col {
+    grid-column: span 3;
   }
 }
