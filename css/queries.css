@@ -3,7 +3,7 @@
 /***********************/
 
 /***********************/
-/*BELOW 1344px*/
+/*BELOW 1344px : smaller desktops(laptops)*/
 /***********************/
 @media (max-width: 84em) {
   .hero {
@@ -11,9 +11,37 @@
   }
   .heading-primary {
     font-size: 4.4rem;
-    line-height: 1.2;
   }
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/***********************/
+/*BELOW 1200px : landscape tablets*/
+/***********************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%; /* 9px = 1rem */
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .main-nav-list {
+    gap: 3.2em;
+  }
+  .grid {
+    row-gap: 6.4rem;
+    column-gap: 4.8rem;
+  }
+  .hero {
+    gap: 6.4rem;
+  }
+  .heading-secondary {
+    font-size: 4.4rem;
+  }
+  .step-number {
+    font-size: 7.4rem;
   }
 }
