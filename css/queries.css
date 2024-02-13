@@ -242,8 +242,9 @@
   }
   .hero-btn-box {
     display: flex;
-    flex-direction: column;
     gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
   }
   .btn--outline:link,
   .btn--outline:visited {
