@@ -181,11 +181,12 @@
   .hero-img {
     width: 60%;
   }
-
   .heading-secondary {
     font-size: 3.6rem;
   }
-
+  .featured img {
+    height: 1.2rem;
+  }
   .grid {
     row-gap: 4.8rem;
     column-gap: 3.2rem;
@@ -236,6 +237,9 @@
   .section-hero {
     padding: 0 0 6.4rem 0;
   }
+  .hero {
+    padding: 4.8rem 3.2rem 0;
+  }
   .hero-btn-box {
     display: flex;
     flex-direction: column;
@@ -255,12 +259,19 @@
 
   .heading-secondary {
     font-size: 3rem;
+    margin-bottom: 4.8rem;
+  }
+  .heading-primary,
+  .heading-secondary,
+  .heading-tertiary {
+    line-height: 1.1;
   }
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
+
   .step-img-box:nth-child(2) {
     grid-row: 1;
   }
@@ -278,11 +289,41 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
   }
-
-  .heading-tertiary {
-    font-size: 2.4rem;
+  .section-pricing {
+    padding: 9.6rem 0 4.8rem;
   }
-  .featured img {
-    height: 1.2rem;
+  .pricing-plan--starter {
+    margin-bottom: 0;
+  }
+  .pricing-plan--complete::after {
+    top: 5%;
+    right: -23%;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 1.6rem;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .cta-img-box {
+    grid-row: 1;
+    height: 35rem;
+  }
+  .cta-text-box {
+    padding: 3.2rem 2.4rem;
+  }
+  .cta-form input,
+  .cta-form select {
+    padding: 1rem 1.2rem;
+  }
+  .grid-footer {
+    gap: 4.8rem;
+  }
+  .footer-link:link,
+  .footer-link:visited {
+    line-height: 1.2;
   }
 }
